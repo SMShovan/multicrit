@@ -29,7 +29,7 @@ Within a bash shell:
 Modify `src/options.hpp` to configure the algorithm / data structures. Parallel versions of the different algorithm and timing programs end in `.par`, e.g., `./bin/time_road_instances1.par`.
   
     make configure      # only needed once
-    make all
+    make 
     make all DEBUG=yes
 
     make my_program     # to build a specific executable
